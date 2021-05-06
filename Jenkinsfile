@@ -34,7 +34,7 @@ pipeline {
         }
 		stage('Verify') {
 			steps { 
-				bat "dir"
+				bat "type new_packages.txt"
 			}
 		}
 		
