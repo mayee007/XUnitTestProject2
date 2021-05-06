@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('checkout') {
             steps {
-					git 'https://github.com/mayee007/XUnitTestProject2.git'
+					git branch: 'main', url: 'https://github.com/mayee007/XUnitTestProject2.git'
 				}
         } 
 		 
