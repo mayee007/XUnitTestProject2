@@ -1,5 +1,5 @@
 pipeline {
-    agent any  
+    agent any   
     environment {
         FILE = "packageList.txt"
         DOTNET = "C:\\Program Files\\dotnet\\dotnet.exe"
