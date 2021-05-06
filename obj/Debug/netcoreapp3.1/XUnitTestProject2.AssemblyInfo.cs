@@ -11,7 +11,7 @@
 using System;
 using System.Reflection;
 
-[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("WebApplication1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "C:\\Users\\mayeee\\source\\repos\\WebApplication1", "WebApplication1.csproj", "0")]
+[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("WebApplication1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "C:\\Users\\yelek\\repos\\WebApplication1", "WebApplication1.csproj", "0")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("XUnitTestProject2")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]

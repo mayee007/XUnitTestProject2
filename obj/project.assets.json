@@ -10632,19 +10632,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\mayeee\\.nuget\\packages\\": {}
+    "C:\\Users\\yelek\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mayeee\\source\\repos\\XUnitTestProject2\\XUnitTestProject2.csproj",
+      "projectUniqueName": "C:\\Users\\yelek\\repos\\XUnitTestProject2\\XUnitTestProject2.csproj",
       "projectName": "XUnitTestProject2",
-      "projectPath": "C:\\Users\\mayeee\\source\\repos\\XUnitTestProject2\\XUnitTestProject2.csproj",
-      "packagesPath": "C:\\Users\\mayeee\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mayeee\\source\\repos\\XUnitTestProject2\\obj\\",
+      "projectPath": "C:\\Users\\yelek\\repos\\XUnitTestProject2\\XUnitTestProject2.csproj",
+      "packagesPath": "C:\\Users\\yelek\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\yelek\\repos\\XUnitTestProject2\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\mayeee\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\yelek\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -10658,8 +10658,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\mayeee\\source\\repos\\WebApplication1\\WebApplication1.csproj": {
-              "projectPath": "C:\\Users\\mayeee\\source\\repos\\WebApplication1\\WebApplication1.csproj"
+            "C:\\Users\\yelek\\repos\\WebApplication1\\WebApplication1.csproj": {
+              "projectPath": "C:\\Users\\yelek\\repos\\WebApplication1\\WebApplication1.csproj"
             }
           }
         }
