@@ -14,7 +14,7 @@ pipeline {
 		 
         stage('Build') {
             steps {
-		    bat "documents\\packageList.txt"
+		    bat "dir documents\\packageList.txt"
 		    bat "dotnet list package>${FILE}"
             }
         }
