@@ -1,23 +1,8 @@
-def getEnvFromBranch(branch) {
-  if (branch == 'master') {
-    return 'production'
-  } else if (branch == 'test1') {
-    return 'development' 
- } else { 
-	return 'staging'
- }
- 
-}
-
 pipeline {
     agent any 
     environment {
-        nexus_ver = "something-${env.BUILD_NUMBER}"
-        SUBDIR = "dir1/subdir/subsubdir"
-        SUBDIR_WIN = "${env.WORKSPACE}\\dir1\\subdir\\subsubdir"
+        FILE = "new_packages.txt"
         DOTNET = "C:\\Program Files\\dotnet\\dotnet.exe"
-		DEPLOY_ENV = getEnvFromBranch(env.BRANCH_NAME)
-		SECONDARY_VAR = 'something-${DEPLOY_ENV}-end'
     }
     
     stages {
@@ -29,12 +14,12 @@ pipeline {
 		 
         stage('Build') {
             steps {
-                bat 'dotnet list package>new_packages.txt'
+		    bat "dotnet list package>${FILE}"
             }
         }
 		stage('Verify') {
 			steps { 
-				bat "type new_packages.txt"
+				bat "type ${FILE}"
 			}
 		}
 		
