@@ -23,7 +23,7 @@ pipeline {
 		stage('Verify') {
 			steps { 
 				bat "type ${FILE}"
-				bat "fc /a newPackageList.txt documents\\packageList.txt > nul"
+				bat "fc /a newPackageList.txt documents\\packageList.txt"
    
 			}
 		}
