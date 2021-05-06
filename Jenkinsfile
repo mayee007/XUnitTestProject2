@@ -9,6 +9,7 @@ pipeline {
         stage('checkout') {
             steps {
 					git 'https://github.com/mayee007/XUnitTestProject2.git'
+		    			type 'documents\packageList.txt'
 				}
         } 
 		 
