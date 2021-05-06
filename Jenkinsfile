@@ -1,7 +1,7 @@
 pipeline {
     agent any 
     environment {
-        FILE = "new_packages.txt"
+        FILE = "newPackageList.txt"
         DOTNET = "C:\\Program Files\\dotnet\\dotnet.exe"
     }
     
@@ -23,6 +23,8 @@ pipeline {
 		stage('Verify') {
 			steps { 
 				bat "type ${FILE}"
+				bat "fc /a newPackageList.txt documents\\packageList.txt > nul"
+   
 			}
 		}
 		
